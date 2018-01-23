@@ -1,0 +1,760 @@
+<html>
+    <head>
+        <style type="text/css">
+            .row0 { position: absolute; top: 0px; width: 250px; text-align: left; }
+            .row1 { position: absolute; top: 0px; }
+            .row2 { position: absolute; top: 25px; }
+            .row3 { position: absolute; top: 50px; }
+            .row4 { position: absolute; top: 75px; }
+            .row5 { position: absolute; top: 100px; }
+            .row6 { position: absolute; top: 125px; }
+            .row7 { position: absolute; top: 150px; }
+            .row8 { position: absolute; top: 175px; }
+            .row9 { position: absolute; top: 200px; }
+            .row10 { position: absolute; top: 225px; }
+            .row11 { position: absolute; top: 250px; }
+            .row12 { position: absolute; top: 275px; }
+            .row13 { position: absolute; top: 300px; }
+            .row14 { position: absolute; top: 325px; }
+            .row15 { position: absolute; top: 350px; }
+            .row16 { position: absolute; top: 375px; }
+            .row17 { position: absolute; top: 400px; }
+            .column1 { left: 0px; }
+            .column2 { left: 55px; }
+            .column3 { left: 110px; }
+            .column4 { left: 165px; }
+            .column5 { left: 220px; }
+            .column6 { left: 275px; }
+            .column7 { left: 330px; }
+            .column8 { left: 385px; }
+            .column9 { left: 440px; }
+            .column10 { left: 495px; }
+            .column11 { left: 550px; }
+            .column12 { left: 605px; }
+            .column13 { left: 660px; }
+            .column14 { left: 715px; }
+            .column15 { left: 770px; }
+            .column16 { left: 825px; }
+            .header { 
+                color: white;
+                font-weight: bold;
+                font-size: 1.1em;
+            }
+            .cell {
+                height: 20px;
+                width: 50px;
+                text-align: center;
+                position: absolute;
+                display: table;
+            }
+            .cell > label {
+                display: table-cell;
+                vertical-align: middle;
+                border-color: darkgray;
+                border-style: solid;
+                border-width: 1px;
+                font-family: Courier;
+                font-size: .75em;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 0em;
+            }
+            .black { color: black; }
+            .white { color: white; }
+            
+            .upperleft { position: absolute; top: 0px; left: 0px; }
+            .upperright{ position: absolute; top: 0px; left: 900px; }
+            .lowerleft { position: absolute; top: 450px; left: 0px; }
+            .lowerright { position: absolute; top: 450px; left: 900px; }
+        </style>
+    </head>
+    <body class="cell column1" style="background-color: black;position: absolute;top: 10px;left: 10px;">
+        <div id="WebSafeColors" class="upperleft">
+            <div id="line0" class="row0">
+                <label class="header">Web Safe Colors</label>
+            </div>
+            <div id="line1" class="row1">
+                <div class="cell column6" style="background-color: #ffe8ef;">
+                    <label class="black">ffe8ef</label>
+                </div>
+                <div class="cell column7" style="background-color: #dec6cd;">
+                    <label class="black">dec6cd</label>
+                </div>
+                <div class="cell column8" style="background-color: #a6949a;">
+                    <label class="black">a6949a</label>
+                </div>
+                <div class="cell column9" style="background-color: #6f6367;">
+                    <label class="white">6f6367</label>
+                </div>
+                <div class="cell column10" style="background-color: #373133;">
+                    <label class="white">373133</label>
+                </div>
+                <div class="cell column11" style="background-color: #000000;">
+                    <label class="white">000000</label>
+                </div>
+            </div>
+            <div id="line2" class="row2">
+                <div class="cell column7" style="background-color: #ffc750;">
+                    <label class="black">ffc750</label>
+                </div>
+                <div class="cell column8" style="background-color: #dfaa00;">
+                    <label class="black">dfaa00</label>
+                </div>
+                <div class="cell column9" style="background-color: #c09300;">
+                    <label class="black">c09300</label>
+                </div>
+                <div class="cell column10" style="background-color: #ae8600;">
+                    <label class="white">ae8600</label>
+                </div>
+            </div>
+            <div id="line3" class="row3">
+                <div class="cell column1" style="background-color: #e9b22a;">
+                    <label class="black">e9b22a</label>
+                </div>
+                <div class="cell column6" style="background-color: #ca9a00;">
+                    <label class="black">ca9a00</label>
+                </div>
+                <div class="cell column7" style="background-color: #ffc857;">
+                    <label class="black">ffc857</label>
+                </div>
+                <div class="cell column8" style="background-color: #ffca6f;">
+                    <label class="black">ffca6f</label>
+                </div>
+                <div class="cell column9" style="background-color: #daac62;">
+                    <label class="black">daac62</label>
+                </div>
+                <div class="cell column10" style="background-color: #bf9322;">
+                    <label class="black">bf9322</label>
+                </div>
+                <div class="cell column11" style="background-color: #8f6d00;">
+                    <label class="white">8f6d00</label>
+                </div>
+                <div class="cell column16" style="background-color: #856726;">
+                    <label class="white">856726</label>
+                </div>
+            </div>
+            <div id="line4" class="row4">
+                <div class="cell column1" style="background-color: #ffd389;">
+                    <label class="black">ffd389</label>
+                </div>
+                <div class="cell column2" style="background-color: #ffd38c;">
+                    <label class="black">ffd38c</label>
+                </div>
+                <div class="cell column3" style="background-color: #3d2f09;">
+                    <label class="white">3d2f09</label>
+                </div>
+                <div class="cell column4" style="background-color: #7b5e11;">
+                    <label class="white">7b5e11</label>
+                </div>
+                <div class="cell column5" style="background-color: #a69500;">
+                    <label class="black">a69500</label>
+                </div>
+                <div class="cell column6" style="background-color: #f6c600;">
+                    <label class="black">f6c600</label>
+                </div>
+                <div class="cell column7" style="background-color: #ffd592;">
+                    <label class="black">ffd592</label>
+                </div>
+                <div class="cell column8" style="background-color: #c99b32;">
+                    <label class="black">c99b32</label>
+                </div>
+                <div class="cell column9" style="background-color: #a47e2b;">
+                    <label class="white">a47e2b</label>
+                </div>
+                <div class="cell column10" style="background-color: #221a00;">
+                    <label class="white">221a00</label>
+                </div>
+                <div class="cell column11" style="background-color: #453500;">
+                    <label class="white">453500</label>
+                </div>
+                <div class="cell column12" style="background-color: #674f00;">
+                    <label class="white">674f00</label>
+                </div>
+                <div class="cell column13" style="background-color: #886900;">
+                    <label class="white">886900</label>
+                </div>
+                <div class="cell column14" style="background-color: #a98200;">
+                    <label class="white">a98200</label>
+                </div>
+                <div class="cell column15" style="background-color: #a7875c;">
+                    <label class="white">a7875c</label>
+                </div>
+                <div class="cell column16" style="background-color: #a8801a;">
+                    <label class="white">a8801a</label>
+                </div>
+            </div>
+            <div id="line5" class="row5">
+                <div class="cell column1" style="background-color: #ffd080;">
+                    <label class="black">ffd080</label>
+                </div>
+                <div class="cell column2" style="background-color: #ffd497;">
+                    <label class="black">ffd497</label>
+                </div>
+                <div class="cell column3" style="background-color: #e8b33f;">
+                    <label class="black">e8b33f</label>
+                </div>
+                <div class="cell column4" style="background-color: #795f35;">
+                    <label class="white">795f35</label>
+                </div>
+                <div class="cell column5" style="background-color: #b78e37;">
+                    <label class="black">b78e37</label>
+                </div>
+                <div class="cell column6" style="background-color: #f5bc3b;">
+                    <label class="black">f5bc3b</label>
+                </div>
+                <div class="cell column7" style="background-color: #ffd594;">
+                    <label class="black">ffd594</label>
+                </div>
+                <div class="cell column8" style="background-color: #8e6c00;">
+                    <label class="white">8e6c00</label>
+                </div>
+                <div class="cell column9" style="background-color: #705600;">
+                    <label class="white">705600</label>
+                </div>
+                <div class="cell column10" style="background-color: #4f4031;">
+                    <label class="white">4f4031</label>
+                </div>
+                <div class="cell column11" style="background-color: #6c552d;">
+                    <label class="white">6c552d</label>
+                </div>
+                <div class="cell column12" style="background-color: #8c6c27;">
+                    <label class="white">8c6c27</label>
+                </div>
+                <div class="cell column13" style="background-color: #ad841c;">
+                    <label class="white">ad841c</label>
+                </div>
+                <div class="cell column14" style="background-color: #856f5f;">
+                    <label class="white">856f5f</label>
+                </div>
+                <div class="cell column15" style="background-color: #b19992;">
+                    <label class="black">b19992</label>
+                </div>
+                <div class="cell column16" style="background-color: #a2835b;">
+                    <label class="white">a2835b</label>
+                </div>
+            </div>
+            <div id="line6" class="row6">
+                <div class="cell column1" style="background-color: #ffce79;">
+                    <label class="black">ffce79</label>
+                </div>
+                <div class="cell column2" style="background-color: #ffd291;">
+                    <label class="black">ffd291</label>
+                </div>
+                <div class="cell column3" style="background-color: #dfac42;">
+                    <label class="black">dfac42</label>
+                </div>
+                <div class="cell column4" style="background-color: #ac8421;">
+                    <label class="white">ac8421</label>
+                </div>
+                <div class="cell column5" style="background-color: #b29068;">
+                    <label class="black">b29068</label>
+                </div>
+                <div class="cell column6" style="background-color: #f1be6a;">
+                    <label class="black">f1be6a</label>
+                </div>
+                <div class="cell column7" style="background-color: #ffd79d;">
+                    <label class="black">ffd79d</label>
+                </div>
+                <div class="cell column8" style="background-color: #8c6d31;">
+                    <label class="white">8c6d31</label>
+                </div>
+                <div class="cell column9" style="background-color: #534000;">
+                    <label class="white">534000</label>
+                </div>
+                <div class="cell column10" style="background-color: #847064;">
+                    <label class="white">847064</label>
+                </div>
+                <div class="cell column11" style="background-color: #9e8161;">
+                    <label class="black">9e8161</label>
+                </div>
+                <div class="cell column12" style="background-color: #bb955e;">
+                    <label class="black">bb955e</label>
+                </div>
+                <div class="cell column13" style="background-color: #634e2c;">
+                    <label class="white">634e2c</label>
+                </div>
+                <div class="cell column14" style="background-color: #767591;">
+                    <label class="white">767591</label>
+                </div>
+                <div class="cell column15" style="background-color: #a09fc3;">
+                    <label class="black">a09fc3</label>
+                </div>
+                <div class="cell column16" style="background-color: #97888e;">
+                    <label class="white">97888e</label>
+                </div>
+            </div>
+            <div id="line7" class="row7">
+                <div class="cell column1" style="background-color: #ffcd74;">
+                    <label class="black">ffcd74</label>
+                </div>
+                <div class="cell column2" style="background-color: #ffcf7c;">
+                    <label class="black">ffcf7c</label>
+                </div>
+                <div class="cell column3" style="background-color: #a58600;">
+                    <label class="white">a58600</label>
+                </div>
+                <div class="cell column4" style="background-color: #e0ac2e;">
+                    <label class="black">e0ac2e</label>
+                </div>
+                <div class="cell column5" style="background-color: #ffd184;">
+                    <label class="black">ffd184</label>
+                </div>
+                <div class="cell column6" style="background-color: #eac19b;">
+                    <label class="black">eac19b</label>
+                </div>
+                <div class="cell column7" style="background-color: #ffdaad;">
+                    <label class="black">ffdaad</label>
+                </div>
+                <div class="cell column8" style="background-color: #c49d65;">
+                    <label class="black">c49d65</label>
+                </div>
+                <div class="cell column9" style="background-color: #a67f00;">
+                    <label class="white">a67f00</label>
+                </div>
+                <div class="cell column10" style="background-color: #baa198;">
+                    <label class="black">baa198</label>
+                </div>
+                <div class="cell column11" style="background-color: #d2b095;">
+                    <label class="black">d2b095</label>
+                </div>
+                <div class="cell column12" style="background-color: #9d8b8f;">
+                    <label class="white">9d8b8f</label>
+                </div>
+                <div class="cell column13" style="background-color: #7e6a5e;">
+                    <label class="white">7e6a5e</label>
+                </div>
+                <div class="cell column14" style="background-color: #57535f;">
+                    <label class="white">57535f</label>
+                </div>
+                <div class="cell column15" style="background-color: #8a92c1;">
+                    <label class="black">8a92c1</label>
+                </div>
+                <div class="cell column16" style="background-color: #838fc0;">
+                    <label class="white">838fc0</label>
+                </div>
+            </div>
+            <div id="line8" class="row8">
+                <div class="cell column1" style="background-color: #daa831;">
+                    <label class="white">daa831</label>
+                </div>
+                <div class="cell column2" style="background-color: #dba830;">
+                    <label class="black">dba830</label>
+                </div>
+                <div class="cell column3" style="background-color: #705617;">
+                    <label class="white">705617</label>
+                </div>
+                <div class="cell column4" style="background-color: #aa853b;">
+                    <label class="white">aa853b</label>
+                </div>
+                <div class="cell column5" style="background-color: #e4b56c;">
+                    <label class="black">e4b56c</label>
+                </div>
+                <div class="cell column6" style="background-color: #ffd8ab;">
+                    <label class="black">ffd8ab</label>
+                </div>
+                <div class="cell column7" style="background-color: #ffdfc8;">
+                    <label class="black">ffdfc8</label>
+                </div>
+                <div class="cell column8" style="background-color: #fccd99;">
+                    <label class="black">fccd99</label>
+                </div>
+                <div class="cell column9" style="background-color: #deab2a;">
+                    <label class="black">deab2a</label>
+                </div>
+                <div class="cell column10" style="background-color: #f1d2cb;">
+                    <label class="black">f1d2cb</label>
+                </div>
+                <div class="cell column11" style="background-color: #c5b5c7;">
+                    <label class="black">c5b5c7</label>
+                </div>
+                <div class="cell column12" style="background-color: #918694;">
+                    <label class="black">918694</label>
+                </div>
+                <div class="cell column13" style="background-color: #625961;">
+                    <label class="white">625961</label>
+                </div>
+                <div class="cell column14" style="background-color: #3f352f;">
+                    <label class="white">3f352f</label>
+                </div>
+                <div class="cell column15" style="background-color: #6e7190;">
+                    <label class="white">6e7190</label>
+                </div>
+                <div class="cell column16" style="background-color: #131e30;">
+                    <label class="white">131e30</label>
+                </div>
+            </div>
+            <div id="line9" class="row9">
+                <div class="cell column1" style="background-color: #daa943;">
+                    <label class="black">daa943</label>
+                </div>
+                <div class="cell column2" style="background-color: #daae6e;">
+                    <label class="black">daae6e</label>
+                </div>
+                <div class="cell column3" style="background-color: #ffcd72;">
+                    <label class="black">ffcd72</label>
+                </div>
+                <div class="cell column4" style="background-color: #ffcd78;">
+                    <label class="black">ffcd78</label>
+                </div>
+                <div class="cell column5" style="background-color: #ffd08b;">
+                    <label class="black">ffd08b</label>
+                </div>
+                <div class="cell column6" style="background-color: #ffd6a9;">
+                    <label class="black">ffd6a9</label>
+                </div>
+                <div class="cell column7" style="background-color: #ffdecc;">
+                    <label class="black">ffdecc</label>
+                </div>
+                <div class="cell column11" style="background-color: #aaa7c9;">
+                    <label class="black">aaa7c9</label>
+                </div>
+                <div class="cell column12" style="background-color: #737696;">
+                    <label class="white">737696</label>
+                </div>
+                <div class="cell column13" style="background-color: #496192;">
+                    <label class="white">496192</label>
+                </div>
+                <div class="cell column14" style="background-color: #385b90;">
+                    <label class="white">385b90</label>
+                </div>
+                <div class="cell column15" style="background-color: #3d4763;">
+                    <label class="white">3d4763</label>
+                </div>
+                <div class="cell column16" style="background-color: #253d60;">
+                    <label class="white">253d60</label>
+                </div>
+            </div>
+            <div id="line10" class="row10">
+                <div class="cell column1" style="background-color: #6d5418;">
+                    <label class="white">6d5418</label>
+                </div>
+                <div class="cell column2" style="background-color: #6d5737;">
+                    <label class="white">6d5737</label>
+                </div>
+                <div class="cell column3" style="background-color: #a37e25;">
+                    <label class="white">a37e25</label>
+                </div>
+                <div class="cell column4" style="background-color: #a4803c;">
+                    <label class="white">a4803c</label>
+                </div>
+                <div class="cell column5" style="background-color: #a4876a;">
+                    <label class="black">a4876a</label>
+                </div>
+                <div class="cell column6" style="background-color: #dbb89d;">
+                    <label class="black">dbb89d</label>
+                </div>
+                <div class="cell column10" style="background-color: #e1d8fd;">
+                    <label class="black">e1d8fd</label>
+                </div>
+                <div class="cell column11" style="background-color: #b0bcf9;">
+                    <label class="black">b0bcf9</label>
+                </div>
+                <div class="cell column12" style="background-color: #85a7f5;">
+                    <label class="black">85a7f5</label>
+                </div>
+                <div class="cell column13" style="background-color: #679bf2;">
+                    <label class="black">679bf2</label>
+                </div>
+                <div class="cell column14" style="background-color: #5e98f1;">
+                    <label class="white">5e98f1</label>
+                </div>
+                <div class="cell column15" style="background-color: #7b8dc5;">
+                    <label class="black">7b8dc5</label>
+                </div>
+                <div class="cell column16" style="background-color: #577ec2;">
+                    <label class="white">577ec2</label>
+                </div>
+            </div>
+            <div id="line11" class="row11">
+                <div class="cell column1" style="background-color: #362a0c;">
+                    <label class="white">362a0c</label>
+                </div>
+                <div class="cell column2" style="background-color: #d9a844;">
+                    <label class="white">d9a844</label>
+                </div>
+                <div class="cell column3" style="background-color: #6a5538;">
+                    <label class="white">6a5538</label>
+                </div>
+                <div class="cell column4" style="background-color: #9d826b;">
+                    <label class="white">9d826b</label>
+                </div>
+                <div class="cell column5" style="background-color: #d2b29f;">
+                    <label class="black">d2b29f</label>
+                </div>
+                <div class="cell column6" style="background-color: #ffddd0;">
+                    <label class="black">ffddd0</label>
+                </div>
+                <div class="cell column7" style="background-color: #ffeafd;">
+                    <label class="black">ffeafd</label>
+                </div>
+                <div class="cell column8" style="background-color: #3999ff;">
+                    <label class="black">3999ff</label>
+                </div>
+                <div class="cell column9" style="background-color: #b9c4ff;">
+                    <label class="black">b9c4ff</label>
+                </div>
+                <div class="cell column10" style="background-color: #cbccff;">
+                    <label class="black">cbccff</label>
+                </div>
+                <div class="cell column11" style="background-color: #8faefb;">
+                    <label class="black">8faefb</label>
+                </div>
+                <div class="cell column12" style="background-color: #507fc7;">
+                    <label class="black">507fc7</label>
+                </div>
+                <div class="cell column13" style="background-color: #005995;">
+                    <label class="white">005995</label>
+                </div>
+                <div class="cell column14" style="background-color: #003f67;">
+                    <label class="white">003f67</label>
+                </div>
+                <div class="cell column15" style="background-color: #0073c0;">
+                    <label class="white">0073c0</label>
+                </div>
+                <div class="cell column16" style="background-color: #4b7ac0;">
+                    <label class="white">4b7ac0</label>
+                </div>
+            </div>
+            <div id="line12" class="row12">
+                <div class="cell column1" style="background-color: #ffcd77;">
+                    <label class="black">ffcd77</label>
+                </div>
+                <div class="cell column2" style="background-color: #ffcf88;">
+                    <label class="black">ffcf88</label>
+                </div>
+                <div class="cell column3" style="background-color: #a27e3d;">
+                    <label class="white">a27e3d</label>
+                </div>
+                <div class="cell column4" style="background-color: #d4aa6f;">
+                    <label class="black">d4aa6f</label>
+                </div>
+                <div class="cell column5" style="background-color: #ffd4a6;">
+                    <label class="black">ffd4a6</label>
+                </div>
+                <div class="cell column6" style="background-color: #f4e4ff;">
+                    <label class="black">f4e4ff</label>
+                </div>
+                <div class="cell column7" style="background-color: #cebdcf;">
+                    <label class="black">cebdcf</label>
+                </div>
+                <div class="cell column8" style="background-color: #0078c9;">
+                    <label class="white">0078c9</label>
+                </div>
+                <div class="cell column9" style="background-color: #8093cd;">
+                    <label class="black">8093cd</label>
+                </div>
+                <div class="cell column10" style="background-color: #6fa4fd;">
+                    <label class="black">6fa4fd</label>
+                </div>
+                <div class="cell column11" style="background-color: #929bcc;">
+                    <label class="black">929bcc</label>
+                </div>
+                <div class="cell column12" style="background-color: #008de8;">
+                    <label class="white">008de8</label>
+                </div>
+                <div class="cell column13" style="background-color: #0076bf;">
+                    <label class="white">0076bf</label>
+                </div>
+                <div class="cell column14" style="background-color: #005a94;">
+                    <label class="white">005a94</label>
+                </div>
+                <div class="cell column15" style="background-color: #008def;">
+                    <label class="white">008def</label>
+                </div>
+                <div class="cell column16" style="background-color: #008cec;">
+                    <label class="white">008cec</label>
+                </div>
+            </div>
+            <div id="line13" class="row13">
+                <div class="cell column1" style="background-color: #ffcf87;">
+                    <label class="black">ffcf87</label>
+                </div>
+                <div class="cell column2" style="background-color: #ffd5a7;">
+                    <label class="black">ffd5a7</label>
+                </div>
+                <div class="cell column3" style="background-color: #d6ab6f;">
+                    <label class="black">d6ab6f</label>
+                </div>
+                <div class="cell column4" style="background-color: #9b816c;">
+                    <label class="white">9b816c</label>
+                </div>
+                <div class="cell column5" style="background-color: #ebdfff;">
+                    <label class="black">ebdfff</label>
+                </div>
+                <div class="cell column6" style="background-color: #c3b7d1;">
+                    <label class="black">c3b7d1</label>
+                </div>
+                <div class="cell column7" style="background-color: #978c9c;">
+                    <label class="black">978c9c</label>
+                </div>
+                <div class="cell column8" style="background-color: #003e68;">
+                    <label class="white">003e68</label>
+                </div>
+                <div class="cell column9" style="background-color: #43639a;">
+                    <label class="white">43639a</label>
+                </div>
+                <div class="cell column10" style="background-color: #0090ee;">
+                    <label class="white">0090ee</label>
+                </div>
+                <div class="cell column11" style="background-color: #0076c9;">
+                    <label class="white">0076c9</label>
+                </div>
+                <div class="cell column12" style="background-color: #586a98;">
+                    <label class="white">586a98</label>
+                </div>
+                <div class="cell column13" style="background-color: #005d96;">
+                    <label class="white">005d96</label>
+                </div>
+                <div class="cell column14" style="background-color: #0073c2;">
+                    <label class="white">0073c2</label>
+                </div>
+                <div class="cell column15" style="background-color: #4c97f6;">
+                    <label class="black">4c97f6</label>
+                </div>
+                <div class="cell column16" style="background-color: #008ce5;">
+                    <label class="white">008ce5</label>
+                </div>
+            </div>
+            <div id="line14" class="row14">
+                <div class="cell column1" style="background-color: #ffd3a6;">
+                    <label class="black">ffd3a6</label>
+                </div>
+                <div class="cell column2" style="background-color: #ffddd3;">
+                    <label class="black">ffddd3</label>
+                </div>
+                <div class="cell column3" style="background-color: #ccaea0;">
+                    <label class="black">ccaea0</label>
+                </div>
+                <div class="cell column4" style="background-color: #e7ddff;">
+                    <label class="black">e7ddff</label>
+                </div>
+                <div class="cell column5" style="background-color: #bdb4d1;">
+                    <label class="black">bdb4d1</label>
+                </div>
+                <div class="cell column6" style="background-color: #8f879d;">
+                    <label class="white">8f879d</label>
+                </div>
+                <div class="cell column7" style="background-color: #615b68;">
+                    <label class="white">615b68</label>
+                </div>
+                <div class="cell column8" style="background-color: #3d629a;">
+                    <label class="white">3d629a</label>
+                </div>
+                <div class="cell column9" style="background-color: #005e9a;">
+                    <label class="white">005e9a</label>
+                </div>
+                <div class="cell column10" style="background-color: #008ce2;">
+                    <label class="white">008ce2</label>
+                </div>
+                <div class="cell column11" style="background-color: #0078c2;">
+                    <label class="white">0078c2</label>
+                </div>
+                <div class="cell column12" style="background-color: #005d99;">
+                    <label class="white">005d99</label>
+                </div>
+                <div class="cell column13" style="background-color: #003b65;">
+                    <label class="white">003b65</label>
+                </div>
+                <div class="cell column14" style="background-color: #0076c2;">
+                    <label class="white">0076c2</label>
+                </div>
+                <div class="cell column15" style="background-color: #0090f3;">
+                    <label class="black">0090f3</label>
+                </div>
+                <div class="cell column16" style="background-color: #008be1;">
+                    <label class="white">008be1</label>
+                </div>
+            </div>
+            <div id="line15" class="row15">
+                <div class="cell column1" style="background-color: #fbdad4;">
+                    <label class="black">fbdad4</label>
+                </div>
+                <div class="cell column2" style="background-color: #fcdbd4;">
+                    <label class="black">fcdbd4</label>
+                </div>
+                <div class="cell column3" style="background-color: #e6dcff;">
+                    <label class="black">e6dcff</label>
+                </div>
+                <div class="cell column4" style="background-color: #bbb3d1;">
+                    <label class="black">bbb3d1</label>
+                </div>
+                <div class="cell column5" style="background-color: #8d869d;">
+                    <label class="white">8d869d</label>
+                </div>
+                <div class="cell column6" style="background-color: #5e5a69;">
+                    <label class="white">5e5a69</label>
+                </div>
+                <div class="cell column7" style="background-color: #2f2d34;">
+                    <label class="white">2f2d34</label>
+                </div>
+                <div class="cell column8" style="background-color: #758fce;">
+                    <label class="black">758fce</label>
+                </div>
+                <div class="cell column9" style="background-color: #0078c9;">
+                    <label class="white">0078c9</label>
+                </div>
+                <div class="cell column10" style="background-color: #008bdf;">
+                    <label class="white">008bdf</label>
+                </div>
+                <div class="cell column11" style="background-color: #0076be;">
+                    <label class="white">0076be</label>
+                </div>
+                <div class="cell column12" style="background-color: #005e97;">
+                    <label class="white">005e97</label>
+                </div>
+                <div class="cell column13" style="background-color: #004168;">
+                    <label class="white">004168</label>
+                </div>
+                <div class="cell column14" style="background-color: #002135;">
+                    <label class="white">002135</label>
+                </div>
+                <div class="cell column15" style="background-color: #008ce4;">
+                    <label class="white">008ce4</label>
+                </div>
+                <div class="cell column16" style="background-color: #008bdf;">
+                    <label class="white">008bdf</label>
+                </div>
+            </div>
+            <div id="line16" class="row16">
+                <div class="cell column1" style="background-color: #cbaea0;">
+                    <label class="black">cbaea0</label>
+                </div>
+                <div class="cell column6" style="background-color: #728ecf;">
+                    <label class="white">728ecf</label>
+                </div>
+                <div class="cell column7" style="background-color: #a7bbff;">
+                    <label class="black">a7bbff</label>
+                </div>
+                <div class="cell column8" style="background-color: #adbeff;">
+                    <label class="black">adbeff</label>
+                </div>
+                <div class="cell column9" style="background-color: #519cfe;">
+                    <label class="black">519cfe</label>
+                </div>
+                <div class="cell column10" style="background-color: #0090ec;">
+                    <label class="white">0090ec</label>
+                </div>
+                <div class="cell column11" style="background-color: #0078c2;">
+                    <label class="white">0078c2</label>
+                </div>
+                <div class="cell column16" style="background-color: #0076bf;">
+                    <label class="white">0076bf</label>
+                </div>
+            </div>
+            <div id="line17" class="row17">
+                <div class="cell column7" style="background-color: #a5bbff;">
+                    <label class="black">a5bbff</label>
+                </div>
+                <div class="cell column8" style="background-color: #3398ff;">
+                    <label class="white">3398ff</label>
+                </div>
+                <div class="cell column9" style="background-color: #0090ec;">
+                    <label class="white">0090ec</label>
+                </div>
+                <div class="cell column10" style="background-color: #008ce2;">
+                    <label class="white">008ce2</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
